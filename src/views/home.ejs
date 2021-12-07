@@ -10,8 +10,19 @@
     <%- include('./components/how_to.ejs') %> 
     <%- include('./components/faq.ejs') %> 
     <%- include('./components/clients.ejs') %> 
-    <%- include('./components/footer.ejs') %> 
-  </main>
     
+  </main>
+  <footer><%- include('./components/footer.ejs') %> </footer>
+    <script>
+      new Glider(document.querySelector(".glider"),{
+        slidesToScroll: 1,
+        slidesToShow: 2.1,
+        draggable: true,
+        arrows: {
+          prev: ".glider-prev",
+          next: ".glider-next",
+        },
+      })
+    </script>
 </body>
 </html>
