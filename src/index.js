@@ -12,5 +12,5 @@ app.use(express.urlencoded({ extended: false }));
 app.use(routes);
 
 app.listen(8000, () =>
-    console.log("🚀 Server is listening on a url", "http://localhost:7000")
+    console.log("🚀 Server is listening on a url", "http://localhost:8000")
 );
