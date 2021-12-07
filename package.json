@@ -1,0 +1,25 @@
+{
+  "name": "challenge-project-fullstack-digital-house",
+  "version": "1.0.0",
+  "description": "![Captura de tela 2021-11-08 214941](https://user-images.githubusercontent.com/30291266/140842441-76f0da80-955f-4a50-9c02-775098bdd874.png)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/douglasandradeee/challenge-project-fullstack-digital-house.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/douglasandradeee/challenge-project-fullstack-digital-house/issues"
+  },
+  "homepage": "https://github.com/douglasandradeee/challenge-project-fullstack-digital-house#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.15",
+    "sequelize": "^6.12.0-beta.1"
+  }
+}
